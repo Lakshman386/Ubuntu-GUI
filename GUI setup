@@ -1,0 +1,8 @@
+sudo apt update
+sudo apt install ubuntu-desktop
+sudo apt install tightvncserver
+sudo apt install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
+vncserver -set password
+sudo apt-get install lxde -y
+sudo apt-get install xrdp -y
+sudo passwd ubuntu - set password for user.
